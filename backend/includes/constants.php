@@ -1,8 +1,8 @@
 <?php 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'el_project');
-define('DB_USER', 'root');
-define('DB_PASS', 'besho963');
+define('DB_NAME', 'database');
+define('DB_USER', 'username');
+define('DB_PASS', 'password');
 
 
 
