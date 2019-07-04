@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/compiler_save_file"
+        android:icon="@drawable/ic_save_black"
+        android:title="@string/save_file"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/compiler_open_file"
+        android:icon="@drawable/ic_folder_open"
+        android:title="@string/open_file"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/compiler_save_file_as"
+        android:title="@string/save_file_as" />
+    <item
+        android:id="@+id/compiler_close_file"
+        android:title="@string/close_file" />
+    <item
+        android:id="@+id/compiler_copy"
+        android:title="@string/copy" />
+    <item
+        android:id="@+id/compiler_paste"
+        android:title="@string/paste" />
+    <item
+        android:id="@+id/open_output_layout"
+        android:title="@string/open_output_page"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/compiler_share"
+        android:title="@string/share" />
+</menu>

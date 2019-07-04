@@ -1,0 +1,110 @@
+<resources>
+
+
+    <string name="source_google_drive">Google Drive</string>
+    <string name="start_drive">Start Google Drive</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="status_logged_out">Logged Out</string>
+    <string name="status_logged_in">Logged In</string>
+    <string name="status_user_cancelled">User Cancelled</string>
+    <string name="status_error">We found a problem: %1$s</string>
+    <string name="not_open_file">Could not open file</string>
+
+    <string name="app_name">Programming E-Learning</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register_text">No account yet? Create one!</string>
+    <string name="student_id">Student ID</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="are_you">Are You ?</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="cancel1">Cancel</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">Register</string>
+    <string name="e_mail">E-mail</string>
+    <string name="log_out">Log Out</string>
+
+
+    <array name="languages">
+        <item>c</item>
+        <item>Objective c</item>
+        <item>swift</item>
+        <item>c++</item>
+        <item>c#</item>
+        <item>kotlin</item>
+        <item>python</item>
+        <item>python3</item>
+        <item>php</item>
+        <item>java</item>
+        <item>javascript</item>
+        <item>mysql</item>
+        <item>plain text</item>
+    </array>
+
+
+    <string name="test_compiler">Compiler</string>
+    <string name="config">config</string>
+    <string name="run">run</string>
+    <string name="select_language">Select Language</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="javascript">JavaScript</string>
+    <string name="stdin">stdin</string>
+    <string name="input_text">a new line if there more than one input</string>
+    <string name="run_compiler">Run</string>
+    <string name="increasing_the_font">increasing the font</string>
+    <string name="delete_all_text">delete all text</string>
+    <string name="decreasing_the_font">decreasing the font</string>
+    <string name="input">Input</string>
+    <string name="output">output</string>
+    <string name="open_file">Open File</string>
+    <string name="save_file">Save File</string>
+    <string name="save_file_as">Save File as</string>
+    <string name="file_name">File Name</string>
+    <string name="txt">.txt</string>
+    <string name="directory">Directory</string>
+    <string name="sdcard">/sdcard/</string>
+    <string name="auto_save_file">Auto save file</string>
+    <string name="open_output_page">Open output page</string>
+    <string name="share">Share</string>
+    <string name="paste">Paste</string>
+    <string name="copy">Copy</string>
+    <string name="close_file">Close file</string>
+    <string name="header">header</string>
+    <string name="class_name_required">Class name (required)</string>
+    <string name="section">Section</string>
+    <string name="room">Room</string>
+    <string name="subject">Subject</string>
+    <string name="due">Due</string>
+    <string name="points">Points</string>
+    <string name="description_optional">Description (optional)</string>
+    <string name="title">Title</string>
+    <string name="_100">100</string>
+    <string name="no_due_date">No Due Date</string>
+    <string name="attachment">Attachment</string>
+    <string name="create">Create</string>
+    <string name="add_answer">Add Answer</string>
+    <string name="you_have_answered_this_assignment_wait_for_you_mark">You have Answered this Assignment Wait for you mark</string>
+</resources>

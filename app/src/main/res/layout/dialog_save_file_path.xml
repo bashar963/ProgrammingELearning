@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file_name" />
+
+    <EditText
+        android:focusable="true"
+        android:id="@+id/sfad_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt">
+    <requestFocus />
+</EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/directory" />
+
+    <EditText
+        android:id="@+id/sfad_dir_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sdcard"/>
+
+</LinearLayout>

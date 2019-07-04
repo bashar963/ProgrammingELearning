@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ConversationActivity">
+
+    <com.chatcamp.uikit.messages.HeaderView
+        android:id="@+id/header_view"
+        app:backgroundColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.chatcamp.uikit.messages.MessagesList
+            android:id="@+id/messagesList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:incomingBubblePaddingBottom="4dp"
+            app:incomingBubblePaddingTop="4dp"
+            app:incomingTextSize="16sp"
+            app:outcomingBubblePaddingBottom="4dp"
+            app:outcomingBubblePaddingTop="4dp"
+            app:outcomingTextSize="16sp"
+            app:textAutoLink="all" />
+
+        <ProgressBar
+            android:id="@+id/load_message_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:indeterminate="false"
+        android:progress="0"
+        android:progressDrawable="@color/accent"
+        android:progressTint="@color/colorPrimary"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/edit_conversation_input"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/graylight"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <com.chatcamp.uikit.messages.MessageInput
+        android:id="@+id/edit_conversation_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="1dp"
+        app:attachmentButtonBackground="@drawable/bg_circular"
+        app:attachmentButtonHeight="30dp"
+        app:attachmentButtonIcon="@drawable/ic_attachment_black_24dp"
+        app:attachmentButtonWidth="30dp"
+        app:inputButtonBackground="@color/transparent"
+        app:inputButtonIcon="@drawable/ic_send"
+        app:inputHint="@string/hint_enter_a_message"
+        app:inputTextSize="14sp"
+        app:showAttachmentButton="true"
+        app:attachmentButtonDefaultBgColor="@color/md_red_700"/>
+</LinearLayout>
